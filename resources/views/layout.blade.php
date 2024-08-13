@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">-->
-    <title>Agenda</title>
+    <title>Livros</title>
     @vite(['resources/js/app.js'])
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
     @component('navbar')
     @endcomponent
-    </div>
-    <main role="main">
-    <div class="container-fluid">
-             @hasSection('content')
-                        @yield('content')
-             @endif
-    </div>
+    <main role="main" class="py-4">
+        @hasSection('content')
+            @yield('content')
+        @endif
     </main>
-    <footer>
-        <p class="text-center"><span class="text-muted">Todos os direitos reservados a &copy;Copyright</span></p>
+    
+    <footer class="footer mt-auto py-3 navbar-fixed-bottom">
+        <div class="container">
+            <div class="row">
+                    <p class="text-center"><span class="text-muted">Todos os direitos reservados a &copy;Copyright</span></p>
+            </div>
+          
+        </div>
     </footer>
-    @hasSection ('javascript')
-        @yield('javascript')
-    @endif
 </body>
 </html>
