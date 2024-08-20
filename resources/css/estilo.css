@@ -3,12 +3,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 .containe{
-  display: grid;
-  grid-template-columns: auto auto;
-
-
+  display: flex;
+  gap:4px;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.formulario{
+  background-color: #fff;
+  width: 350px;
+  height: 430px;
+  border-radius: 20px;
+  margin: 120px;
+  color:#0055CC;
+}
+
+.h1{
+  align-items: center;
+  text-align: center;
+  color:#0055CC;
+}
+
+.botao{
+  color:#fff;
+  background-color: #0055CC;
+  border-radius: 8px ;
+}
+.escreve{
+  font-family: "Karantina", system-ui;
+  margin: 0;
+  padding: 110px;
+  color:#0055CC;
+
+}
 .titulo {
   margin: 0;
   padding: 0;
@@ -17,6 +44,7 @@
   font-family: "Karantina", system-ui;
   color:#fff
 }
+
 
 .text{
   margin: 0;
@@ -144,7 +172,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  
   margin-top: 24px;
 }
 #logo {
