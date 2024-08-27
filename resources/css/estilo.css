@@ -36,6 +36,22 @@
   color:#0055CC;
 
 }
+.atv{
+  font-family: "Karantina", system-ui;
+  margin: 0;
+  padding: 55px;
+  color:#0055CC;
+}
+
+.formatv{
+background-color: #fff;
+width: 330px;
+height: 330px;
+border-radius: 20px;
+margin: 120px;
+color:#0055CC;
+}
+
 .titulo {
   margin: 0;
   padding: 0;

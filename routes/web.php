@@ -21,4 +21,6 @@ Route::get('/cadastro', function() {
     return view('cadastro');
 })->name('cadastro');
 
-
+Route::get('/cadastroatv', function() {
+    return view('cadastroatv');
+})->name('cadastroatv');

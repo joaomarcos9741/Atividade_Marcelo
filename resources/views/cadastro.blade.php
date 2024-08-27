@@ -17,6 +17,7 @@
          <br><br>
          <a href="{{ route('index')}}">Voltar</a>
     </form>
+    <a href="{{ route('cadastroatv')}}">AAAAAAAA</a>
    </div>
 
     <div class="direito">
