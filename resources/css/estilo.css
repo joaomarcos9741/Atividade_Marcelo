@@ -39,18 +39,11 @@
 .atv{
   font-family: "Karantina", system-ui;
   margin: 0;
-  padding: 55px;
-  color:#0055CC;
+  font-size: 70px;
+  padding: 100px;
+  color:white;
 }
 
-.formatv{
-background-color: #fff;
-width: 330px;
-height: 330px;
-border-radius: 20px;
-margin: 120px;
-color:#0055CC;
-}
 
 .titulo {
   margin: 0;
@@ -79,13 +72,30 @@ body {
   min-height: 100vh;
   background-color: #0055CC;
 }
+.bodyprincipal{
+  font-size: .875rem;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+}
 footer {
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 0; 
   width: 100%;
   text-align: center;
   background-color: #fff;
+}
+
+.retangulo{
+  background-color: #0055CC;
+  width: 1700px;
+  height: 300px;
+  display: flex;
+  margin-top: 120px;
+  border-radius: 15px;
 }
 
 .feather {
